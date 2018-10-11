@@ -31,7 +31,7 @@ public class MainVerticle extends AbstractVerticle {
 			.setType("file")
 			.setFormat("json")
 			.setOptional(true)
-			.setConfig(new JsonObject().put("path", "insult-config.json"));
+			.setConfig(new JsonObject().put("path", "conf/insult-config.json"));
 		
 		ConfigStoreOptions kubeConfig = new ConfigStoreOptions()     
 				.setType("file")
